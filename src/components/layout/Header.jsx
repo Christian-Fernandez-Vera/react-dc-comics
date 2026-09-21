@@ -28,11 +28,10 @@ export default function Header() {
               <li key={link.id} className="h-full flex items-center relative">
                 <a
                   href={link.url}
-                  className={`flex items-center h-full transition-colors ${
-                    link.isActive 
-                      ? 'text-blue-600 border-b-4 border-blue-600' 
+                  className={`flex items-center h-full transition-colors ${link.isActive
+                      ? 'text-blue-600 border-b-4 border-blue-600'
                       : 'text-neutral-700 hover:text-blue-600'
-                  }`}
+                    }`}
                 >
                   {link.label}
                 </a>
