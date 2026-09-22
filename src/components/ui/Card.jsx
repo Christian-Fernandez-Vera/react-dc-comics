@@ -8,9 +8,9 @@ export default function Card({ image, title }) {
   return (
     <article className="flex flex-col group cursor-pointer">
       <div className="aspect-square w-full overflow-hidden bg-neutral-900 mb-3">
-        <img 
-          src={image} 
-          alt={title} 
+        <img
+          src={image}
+          alt={title}
           className="w-full h-full object-cover object-top transition-transform duration-300 group-hover:scale-105"
           loading="lazy"
         />
